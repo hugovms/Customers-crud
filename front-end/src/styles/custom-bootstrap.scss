@@ -1,0 +1,11 @@
+$theme-colors: (
+  "primary": $color-primary,
+  "secondary": $color-secondary,
+  "gray": $color-gray
+);
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+.rounded-1{
+  border-radius:0.55rem;
+}
