@@ -1,0 +1,38 @@
+#front end
+# Add any directories, files, or patterns you don't want to be tracked by version control
+/front-end/node_modules
+/front-end/.sass_cache/*
+
+#Back end
+/back-end/HELP.md
+/back-end/target/
+/back-end/!.mvn/wrapper/maven-wrapper.jar
+/back-end/!**/src/main/**
+/back-end/!**/src/test/**
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+
+### VS Code ###
+/back-end/.vscode/
+
